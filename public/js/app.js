@@ -669,7 +669,17 @@ function noticiaFila(n, i) {
 
 /* ---------- video ---------- */
 
+// Videos que viven en el propio sitio (carpeta public/video).
+const VIDEOS_SITIO = [
+  { id: '/video/del-boceto-a-la-prenda.mp4', label: 'Del boceto a la prenda' },
+  { id: '/video/nace-una-prenda.mp4', label: 'Solo el boceto' },
+  { id: '/video/la-coleccion-puesta.mp4', label: 'Solo la colección puesta' },
+];
+
 function analizarVideo(url) {
+  // Un video guardado en el propio sitio (carpeta public/video), con su portada al lado.
+  const local = typeof url === 'string' && url.trim().match(/^\/video\/[\w-]+\.(mp4|webm)$/i);
+  if (local) return { tipo: 'archivo', src: local[0], portada: local[0].replace(/\.(mp4|webm)$/i, '.jpg') };
   const limpia = urlSegura(url);
   if (!limpia) return null;
   let u;
@@ -706,7 +716,7 @@ function seccionVideo() {
   } else if (v?.tipo === 'vimeo') {
     marco = h('iframe', { src: `https://player.vimeo.com/video/${v.id}`, title: c.video.title || 'Video', loading: 'lazy', allow: 'fullscreen; picture-in-picture', allowfullscreen: true });
   } else if (v?.tipo === 'archivo') {
-    marco = h('video', { src: v.src, controls: true, playsinline: true, preload: 'metadata' });
+    marco = h('video', { src: v.src, poster: v.portada, controls: true, playsinline: true, preload: 'metadata', width: '1280', height: '720', 'aria-label': c.video.title || 'Video' });
   } else {
     marco = h('div', { class: 'video__vacio' }, icono('reproducir'), h('p', null, state.editing ? 'Aún no hay video. Pega el enlace en el campo de al lado.' : 'Nuestro video llega muy pronto.'));
   }
@@ -727,7 +737,8 @@ function seccionVideo() {
           h(
             'div',
             { class: 'ajustes' },
-            campo('Enlace del video', entrada('video.url', { tipo: 'url', repintar: true, marcador: 'https://www.youtube.com/watch?v=...' }), 'Sirve un enlace de YouTube, de Vimeo o un archivo .mp4. Si el enlace no es válido, el video no aparece.')
+            opciones('video.url', VIDEOS_SITIO, 'Videos del sitio'),
+            campo('O un enlace de YouTube o Vimeo', entrada('video.url', { repintar: true, marcador: 'https://www.youtube.com/watch?v=...' }), 'Pega el enlace y pulsa Enter: el reproductor cambia al instante. Si el enlace no es válido, el video no aparece.')
           )
       )
     )

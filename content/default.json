@@ -1,6 +1,6 @@
 {
   "theme": {
-    "preset": "atelier",
+    "preset": "caribe",
     "colores": {}
   },
   "brand": {
@@ -50,8 +50,8 @@
   "video": {
     "kicker": "El video",
     "title": "Mira cómo nace una prenda",
-    "text": "Del primer dibujo al último botón. Un minuto dentro del taller donde desarrollamos la colección.",
-    "url": ""
+    "text": "Del primer trazo a la prenda puesta. Diez segundos que resumen cómo desarrollamos la colección.",
+    "url": "/video/del-boceto-a-la-prenda.mp4"
   },
   "about": {
     "title": "Somos un taller, no una fábrica",

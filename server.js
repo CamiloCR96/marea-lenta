@@ -189,7 +189,7 @@ async function iniciar() {
         "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
         'font-src https://fonts.gstatic.com',
         "img-src 'self' data: blob: https:",
-        'media-src https:',
+        "media-src 'self' https:",
         'frame-src https://www.youtube-nocookie.com https://player.vimeo.com',
         "connect-src 'self'",
         "base-uri 'self'",

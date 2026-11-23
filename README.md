@@ -9,7 +9,7 @@ Sitio web de una marca de ropa, hecho para la actividad de la unidad 3 (desarrol
 | Quiénes somos | `/quienes-somos`: historia, misión, visión, valores y equipo |
 | Producto o servicio | `/producto`: colección con filtros y una ficha por prenda |
 | Imágenes y características del producto | Ficha de cada prenda: ilustración o foto, colores, tallas, características y cuidado |
-| Video del producto | Sección de video en el inicio y en `/producto` (enlace de YouTube o Vimeo) |
+| Video del producto | Sección de video en el inicio y en `/producto`: video propio del sitio o enlace de YouTube o Vimeo |
 | Noticias | `/noticias`: listado y una página por noticia |
 | Contacto | `/contacto`: datos de contacto y formulario que guarda los mensajes |
 
@@ -41,6 +41,15 @@ El botón **Estilo** abre un panel con cinco diseños. Cada uno cambia tipograf�
 Debajo se pueden ajustar tres colores (fondo, texto y acento). El panel avisa si el texto deja de leerse bien sobre el fondo elegido. El cambio se ve al instante y se publica al guardar.
 
 Para añadir un estilo nuevo o retocar uno, edita `public/estilos.json`.
+
+### Cambiar el video
+
+En modo edición, junto al reproductor aparecen dos formas de elegir el video:
+
+- **Videos del sitio**: tres botones con los videos que ya vienen incluidos (carpeta `public/video`).
+- **Enlace de YouTube o Vimeo**: pega el enlace y pulsa Enter. Sirven las direcciones `youtube.com/watch?v=`, `youtu.be/` y `youtube.com/shorts/`.
+
+Para subir uno de los videos del sitio a YouTube, usa los archivos `.mp4` de `public/video`.
 
 ## Trabajar en el computador
 
@@ -83,5 +92,6 @@ lib/store.js         guardado en Postgres o en archivos
 content/default.json contenido original del sitio
 public/              página, hoja de estilos y código del navegador
 public/estilos.json  los cinco estilos visuales (fuentes, colores y formas)
+public/video/        videos del sitio en MP4, cada uno con su portada en JPG
 render.yaml          plano de despliegue en Render
 ```
