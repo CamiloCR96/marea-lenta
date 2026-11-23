@@ -1,0 +1,31 @@
+# Plano de Render: crea el sitio y su base de datos de una sola vez.
+# En Render: New > Blueprint > elegir este repositorio.
+
+databases:
+  - name: marea-lenta-db
+    plan: free
+    databaseName: marea_lenta
+    user: marea_lenta
+
+services:
+  - type: web
+    name: marea-lenta
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: marea-lenta-db
+          property: connectionString
+      # Render pide este valor al crear el servicio. Es la contraseña del modo edición.
+      - key: EDIT_PASSWORD
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true

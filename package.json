@@ -1,0 +1,18 @@
+{
+  "name": "marea-lenta",
+  "version": "1.0.0",
+  "description": "Sitio web con modo edición para una marca de ropa. Proyecto académico sobre el desarrollo de un producto.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.13.0"
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "theme": {
+    "preset": "atelier",
+    "colores": {}
+  },
+  "brand": {
+    "name": "Marea Lenta",
+    "tagline": "Ropa del Caribe que no tiene prisa",
+    "ticker": [
+      "Lino y algodón",
+      "Cosido a mano en Colombia",
+      "Seis prendas por colección",
+      "Arreglos de por vida",
+      "Cero prisa"
+    ]
+  },
+  "home": {
+    "kicker": "Colección Marea Baja · 2026",
+    "title": "Ropa que no tiene",
+    "titleAccent": "prisa.",
+    "lead": "Diseñamos seis prendas por colección, las probamos durante meses y las cosemos una por una en talleres del Caribe colombiano. Menos ropa, mejor hecha.",
+    "cta": "Ver la colección",
+    "cta2": "Conoce el taller",
+    "featuredTitle": "Lo que estamos cosiendo",
+    "featuredLead": "Tres prendas de la colección actual. Toca un color y mira cómo cambia la tela.",
+    "manifesto": "Una prenda se desarrolla igual que una buena receta: probando, corrigiendo y volviendo a probar hasta que nadie quiere cambiarle nada.",
+    "stats": [
+      {
+        "value": "14",
+        "label": "prototipos antes de aprobar una prenda"
+      },
+      {
+        "value": "6",
+        "label": "prendas por colección, ni una más"
+      },
+      {
+        "value": "100%",
+        "label": "lino y algodón, cero poliéster"
+      },
+      {
+        "value": "0",
+        "label": "afán por sacar la siguiente"
+      }
+    ],
+    "newsTitle": "Desde el taller",
+    "newsLead": "Lo último que pasó entre telas, patrones y tintes.",
+    "closingTitle": "¿Te tomamos las medidas?",
+    "closingText": "Escríbenos y te ayudamos a escoger talla, color y tela. Respondemos el mismo día."
+  },
+  "video": {
+    "kicker": "El video",
+    "title": "Mira cómo nace una prenda",
+    "text": "Del primer dibujo al último botón. Un minuto dentro del taller donde desarrollamos la colección.",
+    "url": ""
+  },
+  "about": {
+    "title": "Somos un taller, no una fábrica",
+    "lead": "Marea Lenta nació para demostrar que la ropa puede hacerse despacio, cerca y bien.",
+    "storyTitle": "Nuestra historia",
+    "story": "Todo empezó con una camisa que duró dos lavadas. Nos pareció absurdo que algo tan cotidiano se dañara tan rápido, así que nos propusimos hacer lo contrario: prendas pensadas para el calor del Caribe, cosidas con paciencia y hechas para durar años.\n\nHoy desarrollamos colecciones pequeñas de seis prendas. Cada una pasa por meses de dibujo, patronaje y pruebas de uso antes de llegar a ti. Trabajamos con talleres familiares de la región y compramos telas naturales a proveedores colombianos.\n\nNo seguimos temporadas ni tendencias. Sacamos una prenda cuando está lista.",
+    "image": "",
+    "mission": "Desarrollar prendas frescas, honestas y duraderas, pagando lo justo a quienes las cosen y explicando a quien las compra cómo se hicieron.",
+    "vision": "Ser en 2030 el taller de ropa lenta de referencia en el Caribe colombiano, con una comunidad que repara, hereda y vuelve a usar lo que viste.",
+    "valuesTitle": "En lo que creemos",
+    "values": [
+      {
+        "title": "Despacio",
+        "text": "Preferimos tardar tres meses en una camisa que tres días en una que no convence."
+      },
+      {
+        "title": "Cerca",
+        "text": "Telas, botones y manos de la región. Sabemos el nombre de quien cose cada prenda."
+      },
+      {
+        "title": "Honesto",
+        "text": "Contamos cuánto cuesta cada parte del proceso y por qué vale lo que vale."
+      },
+      {
+        "title": "Para siempre",
+        "text": "Arreglamos gratis lo que vendemos. Una prenda remendada es una prenda querida."
+      }
+    ],
+    "teamTitle": "El equipo",
+    "teamLead": "Tres personas, un taller y muchas pruebas de costura.",
+    "team": [
+      {
+        "name": "Integrante 1",
+        "role": "Dirección creativa",
+        "bio": "Dibuja cada prenda y decide cuándo un prototipo por fin está listo.",
+        "image": ""
+      },
+      {
+        "name": "Integrante 2",
+        "role": "Producto y patronaje",
+        "bio": "Convierte los dibujos en moldes y coordina las pruebas con los talleres.",
+        "image": ""
+      },
+      {
+        "name": "Integrante 3",
+        "role": "Marca y comunidad",
+        "bio": "Cuenta lo que pasa en el taller y responde cada mensaje que llega.",
+        "image": ""
+      }
+    ]
+  },
+  "productPage": {
+    "title": "La colección",
+    "lead": "Seis prendas desarrolladas para el calor. Elige una y cámbiale el color.",
+    "processTitle": "Así desarrollamos cada prenda",
+    "processLead": "Ninguna prenda sale del taller sin pasar por estos seis pasos.",
+    "process": [
+      {
+        "title": "Escuchar",
+        "text": "Preguntamos qué falta en el clóset: qué pica, qué aprieta, qué se daña primero."
+      },
+      {
+        "title": "Dibujar",
+        "text": "Bocetamos decenas de versiones a mano hasta encontrar la silueta correcta."
+      },
+      {
+        "title": "Patronar",
+        "text": "Pasamos el dibujo a moldes de papel y ajustamos cada talla por separado."
+      },
+      {
+        "title": "Prototipar",
+        "text": "Cosemos muestras en tela real. En promedio hacemos catorce antes de aprobar."
+      },
+      {
+        "title": "Probar",
+        "text": "Diez personas usan y lavan la prenda durante un mes y nos cuentan qué cambiar."
+      },
+      {
+        "title": "Producir",
+        "text": "Cortamos lotes pequeños y cosemos cada pieza en talleres de la región."
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "camisa-brisa",
+      "name": "Camisa Brisa",
+      "category": "Camisas",
+      "price": "$189.000",
+      "featured": true,
+      "garment": "camisa",
+      "pattern": "liso",
+      "image": "",
+      "short": "Manga corta, cuello abierto y lino lavado.",
+      "description": "La camisa con la que empezó todo. Lino lavado que no pide plancha, cuello tipo cubano y un corte recto que deja pasar el aire. Tardamos catorce prototipos en dar con el largo exacto de la manga.",
+      "colors": [
+        {
+          "name": "Arena",
+          "hex": "#d9c39a"
+        },
+        {
+          "name": "Mar adentro",
+          "hex": "#1e6b66"
+        },
+        {
+          "name": "Guayaba",
+          "hex": "#e2542b"
+        },
+        {
+          "name": "Hueso",
+          "hex": "#efe6d3"
+        }
+      ],
+      "sizes": "XS, S, M, L, XL",
+      "features": [
+        {
+          "title": "Tela",
+          "text": "100% lino lavado de 160 g, fresco y con caída."
+        },
+        {
+          "title": "Corte",
+          "text": "Recto y holgado, pensado para climas de más de 28 grados."
+        },
+        {
+          "title": "Detalles",
+          "text": "Botones de coco y bolsillo de parche cosido a mano."
+        },
+        {
+          "title": "Origen",
+          "text": "Cortada y cosida en un taller familiar de Barranquilla."
+        }
+      ],
+      "care": "Lavar con agua fría y secar a la sombra. El lino se pone más suave con cada lavada."
+    },
+    {
+      "id": "camiseta-salitre",
+      "name": "Camiseta Salitre",
+      "category": "Camisetas",
+      "price": "$89.000",
+      "featured": true,
+      "garment": "camiseta",
+      "pattern": "rayas",
+      "image": "",
+      "short": "Algodón grueso con rayas marineras.",
+      "description": "Una camiseta de algodón peinado con el peso justo: no se transparenta, no se deforma y no pierde el cuello. Las rayas se tejen en la tela, no se estampan, así que no se borran.",
+      "colors": [
+        {
+          "name": "Marino",
+          "hex": "#27496d"
+        },
+        {
+          "name": "Guayaba",
+          "hex": "#e2542b"
+        },
+        {
+          "name": "Oliva",
+          "hex": "#6b7a3a"
+        }
+      ],
+      "sizes": "S, M, L, XL",
+      "features": [
+        {
+          "title": "Tela",
+          "text": "Algodón peinado colombiano de 220 g."
+        },
+        {
+          "title": "Corte",
+          "text": "Hombro caído y largo regular."
+        },
+        {
+          "title": "Detalles",
+          "text": "Cuello reforzado con doble costura."
+        },
+        {
+          "title": "Origen",
+          "text": "Tejida en Medellín, confeccionada en Cartagena."
+        }
+      ],
+      "care": "Lavar al revés con colores similares. No usar secadora."
+    },
+    {
+      "id": "vestido-atardecer",
+      "name": "Vestido Atardecer",
+      "category": "Vestidos",
+      "price": "$249.000",
+      "featured": true,
+      "garment": "vestido",
+      "pattern": "liso",
+      "image": "",
+      "short": "Tirantes anchos y falda con vuelo.",
+      "description": "Un vestido que se mueve con la brisa. Tirantes anchos que no se resbalan, cintura que se ajusta con un lazo interno y una falda en evasé con bolsillos escondidos en la costura.",
+      "colors": [
+        {
+          "name": "Atardecer",
+          "hex": "#e98a3c"
+        },
+        {
+          "name": "Mar adentro",
+          "hex": "#1e6b66"
+        },
+        {
+          "name": "Buganvilia",
+          "hex": "#b83a6b"
+        }
+      ],
+      "sizes": "XS, S, M, L",
+      "features": [
+        {
+          "title": "Tela",
+          "text": "Mezcla de lino y algodón con tacto seco."
+        },
+        {
+          "title": "Corte",
+          "text": "Evasé, largo a media pierna."
+        },
+        {
+          "title": "Detalles",
+          "text": "Bolsillos laterales y lazo interno de ajuste."
+        },
+        {
+          "title": "Origen",
+          "text": "Confeccionado en Cartagena por un taller de cuatro costureras."
+        }
+      ],
+      "care": "Lavar a mano o en ciclo delicado. Planchar a temperatura media."
+    },
+    {
+      "id": "pantalon-muelle",
+      "name": "Pantalón Muelle",
+      "category": "Pantalones",
+      "price": "$219.000",
+      "featured": false,
+      "garment": "pantalon",
+      "pattern": "liso",
+      "image": "",
+      "short": "Bota ancha, tiro alto y pinzas.",
+      "description": "El pantalón para caminar el malecón sin acalorarse. Tiro alto, pinzas al frente y una bota ancha que deja circular el aire. La pretina tiene resorte escondido atrás para que quede cómodo todo el día.",
+      "colors": [
+        {
+          "name": "Tabaco",
+          "hex": "#8a5a3c"
+        },
+        {
+          "name": "Arena",
+          "hex": "#d9c39a"
+        },
+        {
+          "name": "Carbón",
+          "hex": "#3a3936"
+        }
+      ],
+      "sizes": "28, 30, 32, 34, 36",
+      "features": [
+        {
+          "title": "Tela",
+          "text": "Dril liviano de algodón con acabado suave."
+        },
+        {
+          "title": "Corte",
+          "text": "Tiro alto y bota ancha."
+        },
+        {
+          "title": "Detalles",
+          "text": "Cuatro bolsillos y resorte oculto en la espalda."
+        },
+        {
+          "title": "Origen",
+          "text": "Cosido en Soledad, Atlántico."
+        }
+      ],
+      "care": "Lavar con agua fría. Colgar para secar y casi no necesita plancha."
+    },
+    {
+      "id": "sobrecamisa-manglar",
+      "name": "Sobrecamisa Manglar",
+      "category": "Chaquetas",
+      "price": "$279.000",
+      "featured": false,
+      "garment": "chaqueta",
+      "pattern": "cuadros",
+      "image": "",
+      "short": "La capa liviana para las noches con brisa.",
+      "description": "Mitad camisa, mitad chaqueta. Tela con cuerpo pero sin forro, dos bolsillos con tapa y un cuadro tejido que tardamos semanas en afinar. Va encima de una camiseta o sola, abotonada hasta arriba.",
+      "colors": [
+        {
+          "name": "Manglar",
+          "hex": "#3f6b4f"
+        },
+        {
+          "name": "Ladrillo",
+          "hex": "#b4532f"
+        },
+        {
+          "name": "Noche",
+          "hex": "#2c3550"
+        }
+      ],
+      "sizes": "S, M, L, XL",
+      "features": [
+        {
+          "title": "Tela",
+          "text": "Sarga de algodón de 260 g."
+        },
+        {
+          "title": "Corte",
+          "text": "Amplio, para usar como segunda capa."
+        },
+        {
+          "title": "Detalles",
+          "text": "Bolsillos con tapa y botones de tagua."
+        },
+        {
+          "title": "Origen",
+          "text": "Confeccionada en Barranquilla."
+        }
+      ],
+      "care": "Lavar poco y airear mucho. Agua fría y secado a la sombra."
+    },
+    {
+      "id": "tote-mercado",
+      "name": "Tote Mercado",
+      "category": "Accesorios",
+      "price": "$69.000",
+      "featured": false,
+      "garment": "tote",
+      "pattern": "olas",
+      "image": "",
+      "short": "Hecho con los retazos de la colección.",
+      "description": "Cada tote sale de los sobrantes de tela de las otras cinco prendas, así que no hay dos iguales. Aguanta el mercado de la semana, un portátil o la toalla de la playa.",
+      "colors": [
+        {
+          "name": "Sol",
+          "hex": "#f0b429"
+        },
+        {
+          "name": "Mar adentro",
+          "hex": "#1e6b66"
+        },
+        {
+          "name": "Hueso",
+          "hex": "#efe6d3"
+        }
+      ],
+      "sizes": "Talla única",
+      "features": [
+        {
+          "title": "Tela",
+          "text": "Retazos de lona y dril de la colección."
+        },
+        {
+          "title": "Tamaño",
+          "text": "40 por 42 cm, con asas largas para el hombro."
+        },
+        {
+          "title": "Detalles",
+          "text": "Bolsillo interno y costuras reforzadas."
+        },
+        {
+          "title": "Origen",
+          "text": "Cosido en nuestro propio taller."
+        }
+      ],
+      "care": "Lavar a mano cuando haga falta."
+    }
+  ],
+  "newsPage": {
+    "title": "Noticias del taller",
+    "lead": "Lanzamientos, experimentos y todo lo que aprendemos mientras desarrollamos la colección."
+  },
+  "news": [
+    {
+      "id": "nace-marea-baja",
+      "title": "Nace Marea Baja, nuestra nueva colección",
+      "date": "2026-11-10",
+      "tag": "Lanzamiento",
+      "image": "",
+      "excerpt": "Seis prendas, ocho meses de desarrollo y una paleta sacada de la playa a las cinco de la tarde.",
+      "body": "Después de ocho meses de dibujos, moldes y pruebas, ya está aquí Marea Baja. Son seis prendas pensadas para vestirse de pies a cabeza sin pasar calor: una camisa, una camiseta, un vestido, un pantalón, una sobrecamisa y un bolso.\n\nLa paleta salió de una caminata por la playa al final de la tarde. Arena, guayaba, mar adentro y el naranja del cielo antes de que se oculte el sol.\n\nComo siempre, producimos lotes pequeños. Cuando una talla se agota, abrimos lista de espera y cosemos de nuevo."
+    },
+    {
+      "id": "catorce-prototipos",
+      "title": "Catorce prototipos después: así se desarrolló la Camisa Brisa",
+      "date": "2026-10-22",
+      "tag": "Proceso",
+      "image": "",
+      "excerpt": "Te contamos, paso a paso, por qué una camisa aparentemente sencilla nos tomó cinco meses.",
+      "body": "La primera versión de la Camisa Brisa tenía la manga dos centímetros más larga y un cuello que no se quedaba quieto. La segunda corregía el cuello y dañaba el hombro. Así nos fuimos hasta la número catorce.\n\nEn cada ronda, diez personas usaron la camisa durante una semana y nos devolvieron una hoja con lo que cambiarían. De ahí salieron el bolsillo de parche, el largo actual y los botones de coco.\n\nDesarrollar un producto es eso: escuchar, corregir y repetir. Hoy es nuestra prenda más pedida."
+    },
+    {
+      "id": "taller-remiendo",
+      "title": "Taller abierto: aprende a remendar tu ropa",
+      "date": "2026-10-05",
+      "tag": "Comunidad",
+      "image": "",
+      "excerpt": "Un sábado al mes abrimos las puertas para enseñar a pegar botones, coger ruedos y zurcir.",
+      "body": "La prenda más sostenible es la que ya tienes. Por eso, el primer sábado de cada mes abrimos el taller para enseñar arreglos básicos: pegar un botón, coger un ruedo, zurcir un roto.\n\nNo hay que saber coser ni traer nada. Ponemos hilos, agujas y café. Los cupos son limitados porque solo tenemos seis máquinas.\n\nPara apartar tu puesto, escríbenos desde la página de contacto."
+    },
+    {
+      "id": "tinte-cebolla",
+      "title": "Teñimos con cáscara de cebolla y esto fue lo que pasó",
+      "date": "2026-09-18",
+      "tag": "Laboratorio",
+      "image": "",
+      "excerpt": "Estamos probando tintes naturales para la próxima colección. El primer resultado nos sorprendió.",
+      "body": "Guardamos cáscaras de cebolla durante un mes, las hervimos una tarde entera y metimos tres metros de lino crudo. Salió un amarillo dorado que no se parece a ningún tinte de catálogo.\n\nTodavía falta comprobar cómo resiste el sol y las lavadas. Tenemos diez retazos colgados en la terraza y los revisamos cada semana.\n\nSi funciona, la próxima colección tendrá una prenda teñida así. Si no, al menos aprendimos algo y el taller olió a sopa por tres días."
+    }
+  ],
+  "contact": {
+    "title": "Hablemos",
+    "lead": "Preguntas de talla, pedidos especiales o ganas de visitar el taller. Escríbenos y te respondemos el mismo día.",
+    "formTitle": "Déjanos un mensaje",
+    "whatsapp": "",
+    "email": "",
+    "instagram": "",
+    "address": "Barrio Getsemaní, Cartagena de Indias, Colombia",
+    "hours": "Lunes a sábado, de 9:00 a. m. a 6:00 p. m."
+  },
+  "footer": {
+    "note": "Proyecto académico sobre el desarrollo de un producto. Hecho con paciencia."
+  }
+}

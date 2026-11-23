@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es" data-estilo="%ESTILO%">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>%TITULO%</title>
+  <meta name="description" content="%DESCRIPCION%">
+  <meta property="og:title" content="%TITULO%">
+  <meta property="og:description" content="%DESCRIPCION%">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="%COLOR_FONDO%">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!--FUENTES-->
+  <link rel="stylesheet" href="/css/styles.css">
+  <!--TEMA-->
+</head>
+<body>
+  <a class="saltar" href="#app">Saltar al contenido</a>
+  <header id="cabecera" class="cabecera"></header>
+  <main id="app" tabindex="-1">
+    <p class="cargando" aria-live="polite">Cargando el taller</p>
+  </main>
+  <footer id="pie" class="pie"></footer>
+  <div id="edicion"></div>
+  <div id="avisos" class="avisos" role="region" aria-label="Avisos" popover="manual"></div>
+  <p id="anunciador-titulo" class="oculto-visual" hidden>Anuncios para lector de pantalla</p>
+  <div id="anunciador" class="oculto-visual" aria-live="polite"></div>
+  <noscript>
+    <p class="cargando">Este sitio necesita JavaScript para mostrarse.</p>
+  </noscript>
+  <!--DATOS-->
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
